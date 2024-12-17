@@ -1,0 +1,15 @@
+try except:
+    - raise keyword: raise an exception if a condition occurs and stop the program.
+    - assert keyword: check whether a condition is met and let python raise the AssertionError if the condition isn't met,
+        program should only attempt to run if the conditions are in place.
+        running the program with python3 -o app.py, -o will remove all asserts
+    
+    basically:
+        - raise allows you to raise an exception at any time.
+        - assert enables you to verify if a certain condition is met and raises an exception if it isn’t.
+        - In the try clause, all statements are executed until an exception is encountered.
+        - except allows you to catch and handle the exception or exceptions that Python encountered in the try clause.
+        - else lets you code sections that should run only when Python encounters no exceptions in the try clause.
+        - finally enables you to execute sections of code that should always run, whether or not Python encountered any exceptions.
+
+        - to create a customized exception do:  class ExceptionName(Exception) 
