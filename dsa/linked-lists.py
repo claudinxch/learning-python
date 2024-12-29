@@ -102,3 +102,5 @@ list.traverse()
 
 list_as_array = list.to_array()
 print(list_as_array)
+
+print(countNodes(list.head))
