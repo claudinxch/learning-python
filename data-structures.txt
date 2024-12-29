@@ -1,0 +1,19 @@
+Data Structures and Algorithms - DSA
+    Data Structures = different ways of storing data on your computer
+    Algorithms = operations on different data structures + sets of instructions for executing them
+
+DS:
+    - Array is a linear data structure that can hold elements and arrange them. It uses contiguous memory space to store elements.
+        We can directly access any element based on its index. Arrays have two types: one-dimensional (linear form) and multi-dimensional (form of matrix or 3D format).
+
+    - Linked Lists are dynamic data structures that store elements in individual nodes, with each node pointing to the next.
+        Each item is stored in different memory locations, which each item pointing to the next item's memory address.
+    - Stacks follow the Last-In-First-Out principle (LIFO) and primarily assist in function calls in most programming languages.
+    - Queues operate on the First-In-First-Out principle (FIFO) and are commonly used in task scheduling.
+    - Hash Tables store key-value pairs allowing for fast insertion, deletion and search operations.
+
+Big O notation:
+    Notation that indicates the performance or complexity of an algorithm.
+    Allows you to compare the number of operations and know how fast an algorithm is.
+    There are some most common notations like O(1), O(n), O(log n), O(n log n), O(n²), O(n³), O(n!).
+    It always describe the worst case.
