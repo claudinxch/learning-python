@@ -76,3 +76,10 @@ def binary_search(arr, item):
 hero_name = input('hero name from list to get index: ')
 searched = binary_search(heroes, hero_name)
 print(f'Index of hero {hero_name} is {searched}')
+
+def fizz_buzz(n):
+    arr = ["FizzBuzz" if i % 3 == 0 and i % 5 == 0 else "Fizz" if i % 3 == 0 else "Buzz" if i % 5 == 0 else i for i in range(1, n + 1)]
+    # or loop with if else etc
+    return arr
+
+print(fizz_buzz(15))
